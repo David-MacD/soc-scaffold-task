@@ -58,7 +58,14 @@ table {
 
 
 /* Hero */
+.hero {
+    column-count: 2;
+}
 
+.header {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Endorsments */
 
