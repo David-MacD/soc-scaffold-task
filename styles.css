@@ -95,6 +95,19 @@ header button {
 
 /* Endorsments */
 
+.endorsements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.endorsements img {
+    flex: 1;
+    padding: 5px 20px;
+    max-width: 250px;
+    min-width: 250px;
+    height: 60px;
+}
 
 /* Reviews */
 
