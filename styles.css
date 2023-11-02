@@ -55,7 +55,40 @@ table {
 
 
 /* Header */
+header {
+    margin: 5px;
+    display: flex;
+}
 
+header img {
+    flex: 1;
+    margin-right: 2em;
+    max-height: 40px;
+}
+header a {
+    flex: 2;
+    font-size: 1.3em;
+    text-align: center;
+    align-self: center;
+}    
+header button {
+    flex: 1;
+    border: none;
+}
+
+.green-button {
+    background-color: rgb(46, 199, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    min-width: 130px;
+    border-radius: 3px;
+}
+
+.login {
+    border: 1px solid grey;
+    border-radius: 3px;
+}
 
 /* Hero */
 .hero {
