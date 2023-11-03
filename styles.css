@@ -145,6 +145,8 @@ header button {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color:#999;
+    padding: 1em;
 }
 
 .endorsements img {
