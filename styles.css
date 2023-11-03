@@ -86,11 +86,11 @@ header a::before {
     content: "";
     border-bottom: 2px solid black;
     display: block;
-    width: 100px;
+    width: 90%;
     height: 1px;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 38px;
+    left: 5%;
 }
 
 button {
